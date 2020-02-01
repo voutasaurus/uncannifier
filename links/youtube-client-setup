@@ -1,0 +1,22 @@
+YouTube API client setup: https://developers.google.com/youtube/v3/getting-started
+
+# Notes:
+
+## Restricting API keys
+
+On my google account, when creating an API key in the Google Developers
+Console, the dropdown to set API restrictions on the generated API key was
+nonfunctional. Specifically when clicked on, it reacted by being highlighted
+but did not expand (i.e. drop down) or display any options.
+
+The API key record appears with a warning sign which indicates that the
+recommended restrictions have not been applied.
+
+So I decided instead to create a new google account to segregate this API key
+from controlling my personal Google account (the alternative is nightmarish).
+
+When I created this account and an API key the restrictions drop down dropped
+down on click, but was missing the YouTube API as an option. I then discovered
+that the YouTube API needs to be enabled for a project before an API key can be
+restricted to YouTube only. So I did that. And now I have an API key that can
+be restricted.
